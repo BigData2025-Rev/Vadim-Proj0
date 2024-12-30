@@ -132,6 +132,7 @@ class catalogue():
     # remove weapon from both csv and Weapons table
     def remove_weapon(self, weapon_name):
         try:
+            full_name = weapon_name
             weapon_name = weapon_name.lower()
             temp_file_name = "temp.csv"
             file_r = open(self.file_name, "r")
@@ -140,9 +141,11 @@ class catalogue():
             for record in csv.reader(file_r):
                 if weapon_name not in record[0].lower():
                     writer.writerow(record)
+                else:
+                    full_name = record[0]
             file_w.close()
             file_r.close()
-            self.remove_weapon_from_db(weapon_name)
+            self.remove_weapon_from_db(full_name)
             os.remove(self.file_name)
             os.rename(temp_file_name, self.file_name)
             print("Weapon removed successfully")
