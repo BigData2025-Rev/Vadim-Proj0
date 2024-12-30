@@ -1,0 +1,16 @@
+Name,Type,DamageType,Damage,Penetration,FireRate,MagazineSize,ReloadSpeed,Special
+AR-23 Liberator,Assault Rifle,Standard,70,2,700,45,3,None
+R-36 Eruptor,Explosive,Explosive,555,3,25,5,4.7,Shrapnel
+FLAM-66 Torcher,Special,Incendiary,270,4,1,80,3,DMG Over Time
+AR-23A Liberator Carbine,Assault Rifle,Standard,70,2,920,45,2.5,None
+ARC-12 Blitzer,Energy,Arc,250,3,45,0,0,Infinite Ammo
+CB-9 Exploding Crossbow,Explosive,Explosive,620,3,50,5,3.3,None
+R-63CS Diligent Counter Sniper,Marksman Rifle,Standard,200,3,350,15,3,None
+PLAS-1 Scorcher,Energy,Plasma,200,3,350,20,2.5,None
+JAR-5 Dominator,Special,Standard,275,3,250,15,3.8,None
+SMG-72 Pummeler,SMG,Standard,65,2,475,46,3,Stun Small
+SG-225IE Breaker Incendiary,Shotgun,Standard,240,2,300,25,2.5,Incendiary
+SG-225SP Breaker Spray&Pray,Shotgun,Standard,240,2,330,26,3,None
+AR-61 Tenderizer,Assault Rifle,Standard,95,2,850,35,3.3,None
+PLAS-101 Purifier,Energy,Plasma,175,3,1000,15,2.5,Chargeable
+LAS-16 Sickle,Energy,Laser,55,2,750,87,2.1,Heatsink
